@@ -2,7 +2,7 @@
   <img src="https://fernandofranzini.files.wordpress.com/2017/06/spring_3.png" alt=Spring framework icon"/>
 </p>
 
-## Webservice URL
+## Web Service URL
 
 <p><a href="https:/velascomoney-api.herokuapp.com" target="_blank">velascomoney-api.herokuapp.com</a></p>
 
