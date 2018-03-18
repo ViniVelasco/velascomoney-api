@@ -32,6 +32,11 @@ You'll get a list of categories of the service.
 The route to register new categories in the system. You need the header content_type equals to 'application/json'. Property: 'nome'.
 ```
 
+## /categorias/:id (PUT)
+```
+The route to update categories.
+```
+
 ## /categorias/:id (GET)
 ```
 The route to get a specific categorie. You'll need pass the id in the URL.
@@ -54,6 +59,11 @@ You'll get a list of people of the service. Search param: 'nome'.
 The route to register new people in the system. You need the header content_type equals to 'application/json'. Properties: 'nome', 'ativo', 'endereco': ('logradouro', 'numero', 'complemento', 'bairro', 'cep', 'cidade', 'estado').
 ```
 
+## /pessoas/:id (PUT)
+```
+The route to update a specific people.
+```
+
 ## /pessoas/:id (GET)
 ```
 The route to get a specific people. You'll need pass the id in the URL.
@@ -74,6 +84,11 @@ You'll get a list of balances of the service. Params: 'resumo' (to see simplied 
 ## /lancamentos (POST)
 ```
 The route to register new balances in the system. You need the header content_type equals to 'application/json'. Properties: 'descricao', 'dataVencimento', 'dataPagamento', 'valor', 'observacao', 'tipo' (RECEITA/DESPESA), 'categoria' (id), 'pessoa' (id).
+```
+
+## /lancamento/:id (PUT)
+```
+The route to update a balance.
 ```
 
 ## /lancamentos/:id (GET)
