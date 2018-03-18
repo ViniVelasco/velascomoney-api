@@ -4,7 +4,7 @@
 
 ## Web Service URL
 
-<p><a href="https:/velascomoney-api.herokuapp.com" target="_blank">velascomoney-api.herokuapp.com</a></p>
+<p><a href="https://velascomoney-api.herokuapp.com" target="_blank">velascomoney-api.herokuapp.com</a></p>
 
 ## The Project
 This is a Restful Web Service made with Spring Boot using OAuth2 security. Here I have implemented the newest pattern to make a rest web service, with Richardson maturity level 3. The routes: 'lancamentos' and 'pessoas' are pageable. You can use params size and page.
